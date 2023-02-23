@@ -4,6 +4,7 @@ import topImage from "../Images/top.png";
 import profileImage from "../Images/profilePhoto.png";
 import htmlcssImage from "../Images/htmlcss.png";
 import jsImage from "../Images/js.png";
+import tsImage from "../Images/typescript.png";
 import phpImage from "../Images/php.jpg";
 import bootstrapImage from "../Images/bootstrap.png";
 import jqueryImage from "../Images/jquery.png";
@@ -12,11 +13,12 @@ import vscodeImage from "../Images/vscode.png";
 import laravelImage from "../Images/laravel.png";
 import awsImage from "../Images/aws.jpg";
 import githubImage from "../Images/github.png";
+import github2Image from "../Images/github2.png";
 import mysqlImage from "../Images/mysql.png";
 import airplaneImage from "../Images/airplane.jpg";
 import instagramImage from "../Images/instagram.png";
 import facebookImage from "../Images/facebook.jpg";
-import twitterImage from "../Images/twitter.png";
+import qiitaImage from "../Images/qiita.png";
 import wantedlyImage from "../Images/wantedly.png";
 
 const App = () => {
@@ -35,7 +37,7 @@ const App = () => {
             <div className="profileText" >
               <p>■生年月日</p>
               <p>1991年4月12日(31歳) <br />
-                *2022年11月現在</p>
+                *2023年2月現在</p>
             </div>
             <div className="profileText" >
               <p>■出身地</p>
@@ -65,7 +67,7 @@ const App = () => {
               <p>明治学院大学入学・卒業 <br />
                 旅行会社入社・退社 <br />
                 広告代理店入社・退社 <br />
-                IT企業入社・在籍中</p>
+                IT企業入社・退社</p>
             </div>
           </div>
         </div>
@@ -83,6 +85,10 @@ const App = () => {
           <div className="skillItemsWrapper" >
             <img src={jsImage} />
             <figcaption>JavaScript</figcaption>
+          </div>
+          <div className="skillItemsWrapper" >
+            <img src={tsImage} />
+            <figcaption>TypeScript</figcaption>
           </div>
           <div className="skillItemsWrapper" >
             <img src={phpImage} />
@@ -152,8 +158,8 @@ const App = () => {
         <div className="contact">
           <a href="https://www.instagram.com/yo910412/"><img src={instagramImage} /></a>
           <a href="https://www.facebook.com/YOSUKE19910412"><img src={facebookImage} /></a>
-          <a href="https://twitter.com/yo910412"><img src={twitterImage} /></a>
-          <a href="https://www.wantedly.com/id/yousuke_kikuma_a"><img src={wantedlyImage} /></a>
+          <a href="https://github.com/yosuke-kikuma"><img src={github2Image} /></a>
+          <a href="https://qiita.com/yo910412"><img src={qiitaImage} /></a>
         </div>
       </div >
     </main>
